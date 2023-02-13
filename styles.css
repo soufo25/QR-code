@@ -1,0 +1,54 @@
+:root{
+    --primary-color: hsl(0, 0%, 100%);
+   --secondary-color: hsl(212, 45%, 89%);
+   --third-color: hsl(220, 15%, 55%);
+  --last-color: hsl(218, 44%, 22%);
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: url("https://fonts.google.com/specimen/Outfit");
+    background-color: var(--secondary-color);
+}
+
+.container{
+    text-align: center;
+    padding-top: 70px;
+   
+}
+
+.card{
+    margin: auto;
+    padding: 30px 0;
+    width: 350px;
+    height: 550px;
+    border-radius: 1em;
+    background-color: var(--primary-color);
+    
+}
+
+.card img{
+
+    max-width:300px ;
+    border-radius: 1em;
+}
+
+.card h2{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    font-weight: 700;
+    color: var(--last-color);
+}
+
+.card p{
+    padding: 10px 40px;
+    background-color: var(--primary-color);
+    font-size: 1.2em;
+    font-weight: 400;
+    color: var(--third-color);
+
+}

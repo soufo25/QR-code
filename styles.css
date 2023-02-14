@@ -10,19 +10,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: url("https://fonts.google.com/specimen/Outfit");
+    font-family: "outfit", sans-serif;
     background-color: var(--secondary-color);
 }
 
-.container{
+main{
     text-align: center;
     padding-top: 70px;
+    
+  
    
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     margin: auto;
-    padding: 30px 0;
+    padding: 30px 0px;
     width: 350px;
     height: 550px;
     border-radius: 1em;
@@ -38,14 +44,14 @@
 
 .card h2{
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     font-weight: 700;
     color: var(--last-color);
 }
 
 .card p{
-    padding: 10px 40px;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     font-size: 1.2em;
     font-weight: 400;
